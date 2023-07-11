@@ -62,8 +62,7 @@ body {
 /* featured section  */
 .featured {
     background: #FFF;
-    margin: 180px 0px 48px 0px;
-    min-width: 600px;
+    margin: 150px 0px 48px 20px;
 }
 
 .section-title {
@@ -71,11 +70,13 @@ body {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
+    margin-top: 50px;
     text-align: center;
 
 }
 
 .section-description {
+    max-width: 600px;
     width: 50%;
     margin: auto;
     color: rgba(39, 39, 39, 0.60);
@@ -85,172 +86,231 @@ body {
 }
 
 /*  bonous image section  */
-.image-container{
+.first-flower-bg1 {
+    text-align: center;
+    padding: 100px;
+}
+
+.our-feature-flower-title {
+    padding-bottom: 5px;
+}
+
+.flowers-varient {
     display: flex;
-    padding: 0px 240px 0 240px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding-right: 240px;
+    padding-left: 240px;
     gap: 24px;
 }
-.image-bg1{
+
+.first-flower-background {
     width: 300px;
     height: 360px;
     background-color: #A7216226;
-    border-radius: 300px 300px 0px 0px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
 }
-.image1{
-    width: 170px;
-    height: 250px;
-    margin-top: 110px;
-    margin-right: 76px;
-    margin-left: 60px;
-}
-.image-bg2{
+
+.secend-flower-background {
     width: 300px;
     height: 360px;
-    background: rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0px 0px;
+    background-color: #0597A026;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
 }
-.image2{
-    width: 170px;
-    height: 250px;
-    margin-top: 110px;
-    margin-right: 76px;
-    margin-left: 60px;
-}
-.image-bg3{
+
+.third-flower-background {
     width: 300px;
     height: 360px;
-    background: rgba(71, 125, 17, 0.15);
-    border-radius: 300px 300px 0px 0px;
+    background-color: #477D1126;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
 }
-.image3{
+
+.flower-image {
     width: 170px;
     height: 250px;
     margin-top: 110px;
     margin-right: 76px;
     margin-left: 60px;
 }
-.flower-varrient{
+
+.first-flower-image {
+    width: 170px;
+    height: 250px;
+    margin-top: 90px;
+    margin-right: 76px;
+    margin-left: 60px;
+}
+
+.Flowes-varient-name {
     display: flex;
     justify-content: center;
-    gap: 162px;}
-    .flower-name{
+    padding-right: 240px;
+    padding-left: 240px;
+    gap: 200px;
+    padding-bottom: 128px;
+}
+
+.flower-name {
     color: #272727;
     text-align: center;
+    margin: 5px 170px 10px 50px;
     font-size: 24px;
-    font-weight: 700;
-    text-decoration-line: underline;}
-/* support section */
-
-.service-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 10px;
-    background:#2727270D ;
-    margin-bottom: 128px;
-}
-.service-item{
-    padding: 30px;
-    align-items: center;
-    text-align: center;
+    font-weight: 600;
+    text-decoration-line: underline;
 }
 
 /* sale section  */
-.sale-container{
+.sale-container {
     display: flex;
     height: 60vh;
-    background-color:#E554731A;
+    background-color: #E554731A;
     justify-content: space-between;
     align-items: center;
 
 }
-.sale-info{
+
+.sale-info {
     margin-left: 250px;
     align-items: center;
 }
-.sale-title{
+
+.sale-title {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.sale-description{
-    color: black;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin: auto;
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
 }
-.btn-second{
-    color: red;
+
+.btn-second {
+    border-radius: 8px;
+    background: #E55473;
     padding: 12px 20px;
     border-radius: 10px;
-    background-color: red;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 220px;
 }
-.sale-image{
+
+.sale-image {
     margin-right: 200px;
 }
 
-/* insta featured section  */
+/* instagram section  */
 
-.insta-featured{
+.Instagram-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.section-title {
+    padding-bottom: 5px;
+}
+
+.instagram-section-image {
     display: flex;
+    justify-content: center;
     gap: 24px;
-    margin: 0 240px 100px 240px;
+    margin-bottom: 100px;
 }
+
+.insta-image {
+    height: 250px;
+}
+
 /* sarch banner section  */
-.sarch-banner{
-    display: flex;
+.sarch-banner {
     border-radius: 8px;
-    background-image: url(../Flower\ Asset/Rectangular);
+    background-image: url('/Flower Asset/Rectangle 9.png');
+    background-position: center;
+    margin: 0px 250px 128px 250px;
+    height: 300px;
+    padding-top: 130px;
+    justify-self: center;
 }
-.sarch-title{
+
+.sarch-title {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5px;
 }
-.sarch-description{
+
+.sarch-description {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
-.sarch-from{
+
+.sarch-from {
     border-radius: 8px;
-background: #FFF;
+    background: #FFF;
 }
+
+.input-from {
+    padding-top: 10px;
+    padding-left: 270px;
+
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.subscribe {
+    height: 45px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 5px;
+}
+
 /* footer section  */
-footer{
-    background-color:#111010;;
+footer {
+    background-color: #111010;
+    ;
 }
-.title{
+
+.title {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
-text-align: center;
-padding-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
 }
-span{
+
+span {
     color: white;
 }
-.footer-description{
-color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
-.copy{
+
+.copy {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-padding: 10px 0px 100px 0px;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    padding: 10px 0px 100px 0px;
+    font-size: 16px;
+    font-weight: 400;
 }
